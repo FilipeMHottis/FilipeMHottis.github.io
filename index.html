@@ -6,13 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Filipe Marques Hottis</title>
     <link rel="shortcut icon" href="imagens/icon/icon_1.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:
+    wght@200&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Cores: https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff */
+
+        /* Cores do Site e Fonte Principal */
+        body {
+            background-color: #10002B;
+            color: #dee2e6;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        /* Cor do Link */
+        a {
+          color: #C77DFF;
+          text-decoration: none;
+        }
+
+        /* Foto de Perfil */
+        #foto_de_perfil {
+            border-radius: 100%;
+            border: 6px solid #5A189A;
+        }
+
+        /* Colocar no Sentro */
+        .centro {
+            text-align: center;
+        }
+
+        /* Botao */
+        .botao{
+            border: 4.5px solid #3C096C; 
+        }
+        
+        /* Titulo */
+        h1 {
+            font-weight: 10000;
+            font-style: italic;
+        }
+    </style>
+
 </head>
+
 <body>
     <!-- EU - Foto -->
-    <h1>Filipe Marques Hottis</h1>
-    <h4>
-        <a href="https://www.linkedin.com/in/lipehottis/" target="_blank">
-        Linkedin</a>/<a href="https://github.com/FilipeMHottis" target="_blank">GitHub</a> 
+    <h1 class="centro">Filipe Marques Hottis</h1>
+    <h4 class="centro">
+        <a class="botao" href="https://www.linkedin.com/in/lipehottis/" target="_blank">
+        Linkedin</a> / <a class="botao" href="https://github.com/FilipeMHottis" target="_blank">GitHub</a> 
         - 18 Anos - Bahia
     </h4>
 
@@ -41,7 +86,8 @@
 
     <!-- Foto -->
     <h2 id="foto">Foto</h2>
-    <img src="imagens/eu.jpg" alt="Um Desenho Feito por um Amigo" width="350px">
+    <img id="foto_de_perfil" src="imagens/eu.jpg" 
+    alt="Um Desenho Feito por um Amigo" width="350px">
     <p>
         A foto é um desenho feito por um talentoso amigo, que o desenhou eu 
         usando a minha camisa favorita e inserindo-o no cenário de meu anime 
