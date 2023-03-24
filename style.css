@@ -1,0 +1,36 @@
+/* Cores: https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff */
+
+/* Cores do Site e Fonte Principal */
+body {
+    background-color: #10002B;
+    color: #dee2e6;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Cor do Link */
+a {
+    color: #C77DFF;
+    text-decoration: none;
+}
+
+/* Foto de Perfil */
+#foto_de_perfil {
+    border-radius: 100%;
+    border: 6px solid #5A189A;
+}
+
+/* Colocar no Sentro */
+.centro {
+    text-align: center;
+}
+
+/* Botao */
+.botao{
+    border: 4.5px solid #3C096C; 
+}
+
+/* Titulo */
+h1 {
+    font-weight: 10000;
+    font-style: italic;
+}
